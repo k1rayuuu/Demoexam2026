@@ -25,7 +25,7 @@ namespace Exam2026
         }
 
         private string _password;
-        private readonly MainWindow _parent;
+        private readonly MainWindow _parent; // ссылка на главное окно
 
         public string Password
         {

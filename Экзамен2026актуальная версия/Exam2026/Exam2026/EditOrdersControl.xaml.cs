@@ -30,7 +30,7 @@ namespace Exam2026
             this.DataContext = this;
             Loaded += EditTovarsControlLoaded;
         }
-
+        //
         private void EditTovarsControlLoaded(object sender, System.Windows.RoutedEventArgs e)
         {
             using (var dbContext = new AppDbContext())
