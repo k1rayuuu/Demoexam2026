@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище Exam2026Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Номер заказа" Type="float" />
+          <Property Name="Артикул заказа" Type="nvarchar" MaxLength="255" />
+          <Property Name="Дата заказа" Type="datetime" />
+          <Property Name="Дата доставки" Type="datetime" />
+          <Property Name="Адрес пункта выдачи" Type="float" />
+          <Property Name="ФИО авторизированного клиента" Type="nvarchar" MaxLength="255" />
+          <Property Name="Код для получения" Type="float" />
+          <Property Name="Статус заказа" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="PickUpPoints">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="420151, г# Лесной, ул# Вишневая, 32" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Tovars">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Артикул" Type="nvarchar" MaxLength="255" />
+          <Property Name="Наименование товара" Type="nvarchar" MaxLength="255" />
+          <Property Name="Единица измерения" Type="nvarchar" MaxLength="255" />
+          <Property Name="Цена" Type="float" />
+          <Property Name="Поставщик" Type="nvarchar" MaxLength="255" />
+          <Property Name="Производитель" Type="nvarchar" MaxLength="255" />
+          <Property Name="Категория товара" Type="nvarchar" MaxLength="255" />
+          <Property Name="Действующая скидка" Type="float" />
+          <Property Name="Кол-во на складе" Type="float" />
+          <Property Name="Описание товара" Type="nvarchar" MaxLength="255" />
+          <Property Name="Фото" Type="nvarchar" MaxLength="255" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Роль сотрудника" Type="nvarchar" MaxLength="255" />
+          <Property Name="ФИО" Type="nvarchar" MaxLength="255" />
+          <Property Name="Логин" Type="nvarchar" MaxLength="255" />
+          <Property Name="Пароль" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="Хранилище Exam2026ModelContainer">
+          <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PickUpPoints" EntityType="Self.PickUpPoints" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tovars" EntityType="Self.Tovars" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Exam2026Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Номер_заказа" Type="Double" />
+          <Property Name="Артикул_заказа" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Дата_заказа" Type="DateTime" Precision="3" />
+          <Property Name="Дата_доставки" Type="DateTime" Precision="3" />
+          <Property Name="Адрес_пункта_выдачи" Type="Double" />
+          <Property Name="ФИО_авторизированного_клиента" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Код_для_получения" Type="Double" />
+          <Property Name="Статус_заказа" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="PickUpPoints">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="C420151__г__Лесной__ул__Вишневая__32" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Tovars">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Артикул" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Наименование_товара" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Единица_измерения" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Цена" Type="Double" />
+          <Property Name="Поставщик" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Производитель" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Категория_товара" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Действующая_скидка" Type="Double" />
+          <Property Name="Кол_во_на_складе" Type="Double" />
+          <Property Name="Описание_товара" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Фото" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Роль_сотрудника" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ФИО" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Логин" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Пароль" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="Exam2026Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Orders" EntityType="Self.Orders" />
+          <EntitySet Name="PickUpPoints" EntityType="Self.PickUpPoints" />
+          <EntitySet Name="Tovars" EntityType="Self.Tovars" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Exam2026ModelContainer" CdmEntityContainer="Exam2026Entities">
+          <EntitySetMapping Name="Orders">
+            <EntityTypeMapping TypeName="Exam2026Model.Orders">
+              <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Номер_заказа" ColumnName="Номер заказа" />
+                <ScalarProperty Name="Артикул_заказа" ColumnName="Артикул заказа" />
+                <ScalarProperty Name="Дата_заказа" ColumnName="Дата заказа" />
+                <ScalarProperty Name="Дата_доставки" ColumnName="Дата доставки" />
+                <ScalarProperty Name="Адрес_пункта_выдачи" ColumnName="Адрес пункта выдачи" />
+                <ScalarProperty Name="ФИО_авторизированного_клиента" ColumnName="ФИО авторизированного клиента" />
+                <ScalarProperty Name="Код_для_получения" ColumnName="Код для получения" />
+                <ScalarProperty Name="Статус_заказа" ColumnName="Статус заказа" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PickUpPoints">
+            <EntityTypeMapping TypeName="Exam2026Model.PickUpPoints">
+              <MappingFragment StoreEntitySet="PickUpPoints">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="C420151__г__Лесной__ул__Вишневая__32" ColumnName="420151, г# Лесной, ул# Вишневая, 32" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tovars">
+            <EntityTypeMapping TypeName="Exam2026Model.Tovars">
+              <MappingFragment StoreEntitySet="Tovars">
+                <ScalarProperty Name="Артикул" ColumnName="Артикул" />
+                <ScalarProperty Name="Наименование_товара" ColumnName="Наименование товара" />
+                <ScalarProperty Name="Единица_измерения" ColumnName="Единица измерения" />
+                <ScalarProperty Name="Цена" ColumnName="Цена" />
+                <ScalarProperty Name="Поставщик" ColumnName="Поставщик" />
+                <ScalarProperty Name="Производитель" ColumnName="Производитель" />
+                <ScalarProperty Name="Категория_товара" ColumnName="Категория товара" />
+                <ScalarProperty Name="Действующая_скидка" ColumnName="Действующая скидка" />
+                <ScalarProperty Name="Кол_во_на_складе" ColumnName="Кол-во на складе" />
+                <ScalarProperty Name="Описание_товара" ColumnName="Описание товара" />
+                <ScalarProperty Name="Фото" ColumnName="Фото" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="Exam2026Model.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Роль_сотрудника" ColumnName="Роль сотрудника" />
+                <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+                <ScalarProperty Name="Логин" ColumnName="Логин" />
+                <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
