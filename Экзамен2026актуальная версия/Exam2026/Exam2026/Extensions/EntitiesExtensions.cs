@@ -47,7 +47,7 @@ namespace Exam2026.Extensions
             return result;
         }
 
-        public static OrderDto ToDto(this Orders order, PcikUpPoints pickUpPoint)
+        public static OrderDto ToDto(this Orders order, PickUpPoints pickUpPoint)
         {
             return new OrderDto()
             {

@@ -12,12 +12,9 @@ namespace Exam2026
     using System;
     using System.Collections.Generic;
     
-    public partial class Users
+    public partial class PickUpPoints
     {
+        public string Адрес { get; set; }
         public int Id { get; set; }
-        public string Роль_сотрудника { get; set; }
-        public string ФИО { get; set; }
-        public string Логин { get; set; }
-        public string Пароль { get; set; }
     }
 }
