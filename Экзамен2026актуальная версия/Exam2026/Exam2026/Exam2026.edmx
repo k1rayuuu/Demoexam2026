@@ -19,12 +19,12 @@
           <Property Name="Код для получения" Type="float" />
           <Property Name="Статус заказа" Type="nvarchar" MaxLength="255" />
         </EntityType>
-        <EntityType Name="PickUpPoints">
+        <EntityType Name="PcikUpPoints">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
+          <Property Name="Адрес" Type="nvarchar" MaxLength="255" />
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="420151, г# Лесной, ул# Вишневая, 32" Type="nvarchar" MaxLength="255" />
         </EntityType>
         <EntityType Name="Tovars">
           <Key>
@@ -55,7 +55,7 @@
         </EntityType>
         <EntityContainer Name="Хранилище Exam2026ModelContainer">
           <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="PickUpPoints" EntityType="Self.PickUpPoints" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PcikUpPoints" EntityType="Self.PcikUpPoints" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Tovars" EntityType="Self.Tovars" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
@@ -78,12 +78,12 @@
           <Property Name="Код_для_получения" Type="Double" />
           <Property Name="Статус_заказа" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityType Name="PickUpPoints">
+        <EntityType Name="PcikUpPoints">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
+          <Property Name="Адрес" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="C420151__г__Лесной__ул__Вишневая__32" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Tovars">
           <Key>
@@ -112,9 +112,9 @@
           <Property Name="Логин" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="Пароль" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityContainer Name="Exam2026Entities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="AppDbContext" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Orders" EntityType="Self.Orders" />
-          <EntitySet Name="PickUpPoints" EntityType="Self.PickUpPoints" />
+          <EntitySet Name="PcikUpPoints" EntityType="Self.PcikUpPoints" />
           <EntitySet Name="Tovars" EntityType="Self.Tovars" />
           <EntitySet Name="Users" EntityType="Self.Users" />
         </EntityContainer>
@@ -123,7 +123,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище Exam2026ModelContainer" CdmEntityContainer="Exam2026Entities">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Exam2026ModelContainer" CdmEntityContainer="AppDbContext">
           <EntitySetMapping Name="Orders">
             <EntityTypeMapping TypeName="Exam2026Model.Orders">
               <MappingFragment StoreEntitySet="Orders">
@@ -139,11 +139,11 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="PickUpPoints">
-            <EntityTypeMapping TypeName="Exam2026Model.PickUpPoints">
-              <MappingFragment StoreEntitySet="PickUpPoints">
+          <EntitySetMapping Name="PcikUpPoints">
+            <EntityTypeMapping TypeName="Exam2026Model.PcikUpPoints">
+              <MappingFragment StoreEntitySet="PcikUpPoints">
+                <ScalarProperty Name="Адрес" ColumnName="Адрес" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="C420151__г__Лесной__ул__Вишневая__32" ColumnName="420151, г# Лесной, ул# Вишневая, 32" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

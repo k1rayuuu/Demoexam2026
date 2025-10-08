@@ -19,8 +19,15 @@
                         <Border Grid.Column="0" BorderBrush="Black" BorderThickness="2" Margin="5">
 
                             <StackPanel Orientation="Vertical" >
-
-                                
+                                <TextBlock FontWeight="Black" Text="{Binding Артикул_заказа}"/>
+                                <TextBlock Text="{Binding Статус_заказа}"/>
+                                <TextBlock Text="{Binding Адрес_пункта_выдачи}"/>
+                                <TextBlock Text="{Binding Дата_заказа}"/>
+                            </StackPanel>
+                        </Border>
+                        <Border Width="132" Height="72" Grid.Column="2" BorderBrush="Black" BorderThickness="2" Margin="5">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Дата_доставки}" HorizontalAlignment="Center"></TextBlock>
                             </StackPanel>
                         </Border>
                     </Grid>

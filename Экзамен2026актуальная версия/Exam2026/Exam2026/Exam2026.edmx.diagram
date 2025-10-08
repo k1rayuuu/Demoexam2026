@@ -4,9 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="6eef16fc58d0454089f2e9f6260c59f2" Name="Diagram1">
+      <Diagram DiagramId="5a5c6fe5f536446c8b7777dcc84d8bc5" Name="Diagram1">
         <EntityTypeShape EntityType="Exam2026Model.Orders" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Exam2026Model.PickUpPoints" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Exam2026Model.PcikUpPoints" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Exam2026Model.Tovars" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Exam2026Model.Users" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
       </Diagram>

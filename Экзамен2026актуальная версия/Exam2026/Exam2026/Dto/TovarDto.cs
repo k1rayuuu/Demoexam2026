@@ -13,7 +13,7 @@ namespace Exam2026.Dto
         public string Поставщик { get; set; }
         public string Производитель { get; set; }
         public string Категория_товара { get; set; }
-        public Nullable<double> Действующая_скидка { get; set; }
+        public string Действующая_скидка { get; set; }
         public string Кол_во_на_складе { get; set; }
         public string Описание_товара { get; set; }
         //

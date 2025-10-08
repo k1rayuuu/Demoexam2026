@@ -34,6 +34,7 @@ namespace Exam2026
 
             if (_sortIndex % 2 == 0)
             {
+                // Сортировка по алфавиту
                 var orderedItems = items.OrderBy(x => x.Наименование_товара).ToList();
 
                 items.Clear();
@@ -44,6 +45,7 @@ namespace Exam2026
             }
             else
             {
+                //Сортировка в обратном порядке
                 var orderedItems = items.OrderByDescending(x => x.Наименование_товара).ToList();
 
                 items.Clear();
@@ -56,7 +58,7 @@ namespace Exam2026
             _sortIndex++;
         }
 
-
+        //
         private ObservableCollection<TovarDto> GetItems()
         {
             if (Tovars.Content is ViewTovarsControl control)
@@ -80,6 +82,7 @@ namespace Exam2026
 
             if (_sortIndex % 2 == 0)
             {
+                // Сортировка по возрастанию
                 var orderedItems = items.OrderBy(x =>
                 {
                     if (double.TryParse(x.Цена, out var price))
@@ -96,6 +99,7 @@ namespace Exam2026
             }
             else
             {
+                // Сортировка по убыванию
                 var orderedItems = items.OrderByDescending(x => 
                 { 
                     if (double.TryParse(x.Цена, out var price)) 
@@ -157,6 +161,28 @@ namespace Exam2026
         private void SignOutClick(object sender, RoutedEventArgs e)
         {
             this.NavigationService.GoBack();
+        }
+
+        private void OrderButtoClick(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new AdministratorOrderPage());
+        }
+
+        private void DeleteButtonClick(object sender, RoutedEventArgs e)
+        {
+            if (Tovars.Content is ViewTovarsControl control)
+            {
+                var tovar = control.SelectedValue;
+                if (tovar is null)
+                    return;
+                using (var context = new AppDbContext())
+                {
+                    var dbTovar = context.Tovars.FirstOrDefault(t => t.Id == tovar.Id);
+                    context.Tovars.Remove(dbTovar);
+                    context.SaveChanges();
+                    control.Update();
+                }
+            }
         }
     }
 }

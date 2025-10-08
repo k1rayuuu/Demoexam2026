@@ -14,6 +14,8 @@ namespace Exam2026
 
         public ObservableCollection<TovarDto> Items { get; set; } = new ObservableCollection<TovarDto>();
 
+        public TovarDto SelectedValue { get; set; }
+
         public ViewTovarsControl()
         {
             InitializeComponent();
@@ -22,6 +24,11 @@ namespace Exam2026
         }
 
         private void ViewTovarsPage_Loaded(object sender, System.Windows.RoutedEventArgs e)
+        {
+            Update();
+        }
+
+        public void Update()
         {
             using (var dbContext = new AppDbContext())
             {

@@ -14,12 +14,12 @@
     <Property Name="Код для получения" Type="float" />
     <Property Name="Статус заказа" Type="nvarchar" MaxLength="255" />
   </EntityType>
-  <EntityType Name="PickUpPoints">
+  <EntityType Name="PcikUpPoints">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
+    <Property Name="Адрес" Type="nvarchar" MaxLength="255" />
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="420151, г# Лесной, ул# Вишневая, 32" Type="nvarchar" MaxLength="255" />
   </EntityType>
   <EntityType Name="Tovars">
     <Key>
@@ -50,7 +50,7 @@
   </EntityType>
   <EntityContainer Name="Хранилище Exam2026ModelContainer">
     <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="PickUpPoints" EntityType="Self.PickUpPoints" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PcikUpPoints" EntityType="Self.PcikUpPoints" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tovars" EntityType="Self.Tovars" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
   </EntityContainer>

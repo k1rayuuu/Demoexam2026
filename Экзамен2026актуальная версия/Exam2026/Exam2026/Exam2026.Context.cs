@@ -16,7 +16,7 @@ namespace Exam2026
     public partial class AppDbContext : DbContext
     {
         public AppDbContext()
-            : base("name=Exam2026Entities")
+            : base("name=AppDbContext")
         {
         }
     
@@ -26,7 +26,7 @@ namespace Exam2026
         }
     
         public virtual DbSet<Orders> Orders { get; set; }
-        public virtual DbSet<PickUpPoints> PickUpPoints { get; set; }
+        public virtual DbSet<PcikUpPoints> PickUpPoints { get; set; }
         public virtual DbSet<Tovars> Tovars { get; set; }
         public virtual DbSet<Users> Users { get; set; }
     }

@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AdministratorOrderPage.xaml.cs">
+      <DependentUpon>AdministratorOrderPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdministratorPage.xaml.cs">
       <DependentUpon>AdministratorPage.xaml</DependentUpon>
     </Compile>
@@ -76,10 +79,20 @@
     <Compile Include="EditTovarsControl.xaml.cs">
       <DependentUpon>EditTovarsControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Exam2026.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Exam2026.Context.tt</DependentUpon>
+    </Compile>
     <Compile Include="Exam2026.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exam2026.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Exam2026.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Exam2026.edmx</DependentUpon>
     </Compile>
     <Compile Include="Extensions\EntitiesExtensions.cs" />
     <Compile Include="GuestPage.xaml.cs">
@@ -88,16 +101,19 @@
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ManagerOrderPage.xaml.cs">
+      <DependentUpon>ManagerOrderPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ManagerPage.xaml.cs">
       <DependentUpon>ManagerPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\StrikeThroughConverter.cs" />
     <Compile Include="Orders.cs">
       <DependentUpon>Exam2026.tt</DependentUpon>
     </Compile>
-    <Compile Include="PickUpPoints.cs">
+    <Compile Include="PcikUpPoints.cs">
       <DependentUpon>Exam2026.tt</DependentUpon>
     </Compile>
-    <Compile Include="Converters\StrikeThroughConverter.cs" />
     <Compile Include="Tovars.cs">
       <DependentUpon>Exam2026.tt</DependentUpon>
     </Compile>
@@ -110,6 +126,10 @@
     <Compile Include="ViewTovarsControl.xaml.cs">
       <DependentUpon>ViewTovarsControl.xaml</DependentUpon>
     </Compile>
+    <Page Include="AdministratorOrderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AdministratorPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -138,20 +158,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Exam2026.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Exam2026.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Exam2026.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Exam2026.edmx</DependentUpon>
-    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ManagerOrderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ManagerPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -200,16 +214,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Exam2026.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Exam2026.Context.cs</LastGenOutput>
-      <DependentUpon>Exam2026.edmx</DependentUpon>
-    </Content>
-    <Content Include="Exam2026.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Exam2026.edmx</DependentUpon>
-      <LastGenOutput>Exam2026.cs</LastGenOutput>
-    </Content>
     <Resource Include="Resources\picture.png" />
     <Resource Include="Resources\1.jpg" />
     <Resource Include="Resources\10.jpg" />
@@ -225,6 +229,17 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Exam2026.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Exam2026.edmx</DependentUpon>
+      <LastGenOutput>Exam2026.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Exam2026.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Exam2026.edmx</DependentUpon>
+      <LastGenOutput>Exam2026.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

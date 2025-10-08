@@ -12,6 +12,6 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Center" Text="{Binding UserName}"></TextBlock>
-        <Frame x:Name="MainFrame" Grid.Row="1"/>
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

@@ -14,12 +14,12 @@
     <Property Name="Код_для_получения" Type="Double" />
     <Property Name="Статус_заказа" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
   </EntityType>
-  <EntityType Name="PickUpPoints">
+  <EntityType Name="PcikUpPoints">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
+    <Property Name="Адрес" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="C420151__г__Лесной__ул__Вишневая__32" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Tovars">
     <Key>
@@ -48,9 +48,9 @@
     <Property Name="Логин" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="Пароль" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
   </EntityType>
-  <EntityContainer Name="Exam2026Entities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="AppDbContext" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Orders" EntityType="Self.Orders" />
-    <EntitySet Name="PickUpPoints" EntityType="Self.PickUpPoints" />
+    <EntitySet Name="PcikUpPoints" EntityType="Self.PcikUpPoints" />
     <EntitySet Name="Tovars" EntityType="Self.Tovars" />
     <EntitySet Name="Users" EntityType="Self.Users" />
   </EntityContainer>

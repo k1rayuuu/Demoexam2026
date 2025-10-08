@@ -1,5 +1,6 @@
 ﻿using Exam2026.Dto;
 using Exam2026.Extensions;
+using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Controls;
@@ -11,7 +12,7 @@ namespace Exam2026
     /// </summary>
     public partial class ViewOrdersControl : UserControl
     {
-
+        // Строка привязки даннвх, позволяет уведомлять  об изменениях в коллекции(добавление, удаление)
         public ObservableCollection<OrderDto> Items { get; set; } = new ObservableCollection<OrderDto>();
 
         public ViewOrdersControl()
@@ -29,7 +30,12 @@ namespace Exam2026
 
                 foreach (var order in orders)
                 {
-                    Items.Add(order.ToDto());
+                    var pickUpPoint = dbContext.PickUpPoints.FirstOrDefault(x => x.Id == order.Адрес_пункта_выдачи);
+                    if (pickUpPoint is null)
+                    {
+                        throw new ArgumentException();
+                    }
+                    Items.Add(order.ToDto(pickUpPoint));
                 }
             }
         }

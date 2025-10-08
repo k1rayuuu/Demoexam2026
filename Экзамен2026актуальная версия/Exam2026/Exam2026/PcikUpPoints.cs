@@ -12,9 +12,9 @@ namespace Exam2026
     using System;
     using System.Collections.Generic;
     
-    public partial class PickUpPoints
+    public partial class PcikUpPoints
     {
+        public string Адрес { get; set; }
         public int Id { get; set; }
-        public string C420151__г__Лесной__ул__Вишневая__32 { get; set; }
     }
 }

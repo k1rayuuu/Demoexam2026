@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Хранилище Exam2026ModelContainer" CdmEntityContainer="Exam2026Entities">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Exam2026ModelContainer" CdmEntityContainer="AppDbContext">
     <EntitySetMapping Name="Orders">
       <EntityTypeMapping TypeName="Exam2026Model.Orders">
         <MappingFragment StoreEntitySet="Orders">
@@ -16,11 +16,11 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="PickUpPoints">
-      <EntityTypeMapping TypeName="Exam2026Model.PickUpPoints">
-        <MappingFragment StoreEntitySet="PickUpPoints">
+    <EntitySetMapping Name="PcikUpPoints">
+      <EntityTypeMapping TypeName="Exam2026Model.PcikUpPoints">
+        <MappingFragment StoreEntitySet="PcikUpPoints">
+          <ScalarProperty Name="Адрес" ColumnName="Адрес" />
           <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="C420151__г__Лесной__ул__Вишневая__32" ColumnName="420151, г# Лесной, ул# Вишневая, 32" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

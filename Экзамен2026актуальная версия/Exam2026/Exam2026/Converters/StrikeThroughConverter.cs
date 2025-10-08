@@ -9,14 +9,15 @@ namespace Exam2026.Converters
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
+            //  Если значение true, возвращаем TextDecoration для перечёркивани
             if (value is bool isStrikethrough && isStrikethrough)
                 return TextDecorations.Strikethrough;
-            return null;
+            return null; // Иначе возвращаем null (нет перечёркивания)
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException(); // Обратимое преобразование не требуется
         }
     }
 }
