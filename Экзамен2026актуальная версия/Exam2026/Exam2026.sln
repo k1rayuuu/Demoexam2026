@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2026", "Exam2026\Exam2026.csproj", "{9E79DFA5-D354-4903-8F6F-61CEE6180595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2026Prism", "Exam2026Prism\Exam2026Prism.csproj", "{58ACEA20-EB65-4510-AA1C-4AC50B0E6712}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9E79DFA5-D354-4903-8F6F-61CEE6180595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E79DFA5-D354-4903-8F6F-61CEE6180595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E79DFA5-D354-4903-8F6F-61CEE6180595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58ACEA20-EB65-4510-AA1C-4AC50B0E6712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58ACEA20-EB65-4510-AA1C-4AC50B0E6712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58ACEA20-EB65-4510-AA1C-4AC50B0E6712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58ACEA20-EB65-4510-AA1C-4AC50B0E6712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
