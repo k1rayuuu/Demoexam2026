@@ -16,12 +16,11 @@ namespace Exam2026.Dto
         public string Действующая_скидка { get; set; }
         public string Кол_во_на_складе { get; set; }
         public string Описание_товара { get; set; }
-        //
         public string Фото { get; set; }
         public int Id { get; set; }
-        //
+        // свойство поменять цвет на зеленый, если скидка болше 15%
         public SolidColorBrush BackgroundColor { get; set; }
-        //
+        // перечеркивает цену
         public bool IsStrikeThrough { get; set; }
     }
 }

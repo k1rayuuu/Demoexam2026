@@ -34,46 +34,85 @@ C:\Users\5-Prepod\Desktop\Экзамен2026\Exam2026\Exam2026\obj\Debug\Manager
 C:\Users\5-Prepod\Desktop\Экзамен2026\Exam2026\Exam2026\obj\Debug\ManagerPage.baml
 C:\Users\5-Prepod\Desktop\Экзамен2026\Exam2026\Exam2026\obj\Debug\EditOrdersControl.g.cs
 C:\Users\5-Prepod\Desktop\Экзамен2026\Exam2026\Exam2026\obj\Debug\EditOrdersControl.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.exe.config
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.exe
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.pdb
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.dll
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.SqlServer.dll
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.xml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.SqlServer.xml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\ru\EntityFramework.resources.dll
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csprojAssemblyReference.cache
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorPage.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditOrdersControl.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditTovarsControl.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GuestPage.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\LoginPage.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\MainWindow.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerPage.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewOrdersControl.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewTovarsControl.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\App.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_Content.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GeneratedInternalTypeHelper.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_MarkupCompile.cache
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_MarkupCompile.lref
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorPage.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditOrdersControl.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditTovarsControl.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GuestPage.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\LoginPage.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\MainWindow.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerPage.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewOrdersControl.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewTovarsControl.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.g.resources
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.Properties.Resources.resources
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.GenerateResource.cache
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.CoreCompileInputs.cache
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.CopyComplete
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.exe
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.pdb
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorOrderPage.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorOrderPage.baml
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerOrderPage.g.cs
-D:\Милютина\Программисты\Разработка_программных_модулей\Практика_РПМ\Экзамен_2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerOrderPage.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.exe.config
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.exe
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.pdb
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.dll
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.xml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csprojAssemblyReference.cache
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorPage.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditOrdersControl.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditTovarsControl.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GuestPage.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\LoginPage.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\MainWindow.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerPage.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewOrdersControl.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewTovarsControl.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\App.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_Content.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_MarkupCompile.cache
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_MarkupCompile.lref
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorPage.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditOrdersControl.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditTovarsControl.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GuestPage.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\LoginPage.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\MainWindow.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerPage.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewOrdersControl.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewTovarsControl.baml
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.g.resources
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.Properties.Resources.resources
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.GenerateResource.cache
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.CoreCompileInputs.cache
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.CopyComplete
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.exe
+C:\Users\5-Prepod\Desktop\Экзамен2026актуальная версия\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.pdb
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.exe.config
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.exe
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\Exam2026.pdb
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.dll
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.SqlServer.dll
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.xml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\EntityFramework.SqlServer.xml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\bin\Debug\ru\EntityFramework.resources.dll
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.AssemblyReference.cache
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorOrderPage.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorPage.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditOrdersControl.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditTovarsControl.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GuestPage.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\LoginPage.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\MainWindow.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerOrderPage.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerPage.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewOrdersControl.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewTovarsControl.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\App.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_Content.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_MarkupCompile.cache
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026_MarkupCompile.lref
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorOrderPage.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\AdministratorPage.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditOrdersControl.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\EditTovarsControl.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\GuestPage.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\LoginPage.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\MainWindow.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerOrderPage.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ManagerPage.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewOrdersControl.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\ViewTovarsControl.baml
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.g.resources
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.Properties.Resources.resources
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.GenerateResource.cache
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.CoreCompileInputs.cache
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.csproj.Up2Date
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.exe
+C:\Шкуратов Р. С\Demoexam2026\Экзамен2026актуальная версия\Exam2026\Exam2026\obj\Debug\Exam2026.pdb
